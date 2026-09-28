@@ -61,7 +61,7 @@ Claude in Chrome runs your claude.ai skills in the side panel.
 2. Optional but recommended: add your project profiles as `references/projects.md` inside
    the `feature-scout` folder before zipping — see
    [the template](skills/feature-scout/references/en/projects.template.md).
-3. On claude.ai go to **Customize → Skills** and upload the ZIP.
+3. On claude.ai open **Customize** in the sidebar → tab **Skills** → **+ Add** → **Upload skill**, and choose the ZIP.
 4. Open the competitor's site in Chrome, open the Claude side panel and say
    *"Analyze this tool and compare it with <your project>"*.
 

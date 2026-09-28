@@ -63,7 +63,7 @@ Claude in Chrome führt deine claude.ai-Skills im Seitenfenster aus.
 2. Optional, aber empfohlen: Lege vor dem Zippen deine Projekt-Steckbriefe als
    `references/projekte.md` in den Ordner `feature-scout`. Die
    [Vorlage](skills/feature-scout/references/de/projekte.vorlage.md) zeigt, wie das aussieht.
-3. Geh auf claude.ai zu **Anpassen → Skills** und lade die ZIP hoch.
+3. Öffne auf claude.ai in der Seitenleiste **Anpassungen** → Reiter **Skills** → **+ Hinzufügen** → **Skill hochladen** und wähle die ZIP aus.
 4. Öffne die Seite des Konkurrenten in Chrome, öffne das Claude-Seitenfenster und sag
    *„Analysier dieses Tool und vergleich es mit <deinem Projekt>“*.
 
