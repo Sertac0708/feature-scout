@@ -25,6 +25,21 @@ mit unserer Idee“* und bekommst:
 
 Er antwortet in deiner Sprache (Deutsch und Englisch eingebaut).
 
+## Drei Modi, und er fragt zuerst
+
+Beim Start fragt Feature-Scout immer, was du willst:
+
+| # | Modus | Du bekommst |
+|---|---|---|
+| 1 | **Konkurrenzanalyse** | einen Vergleich mit einem deiner Projekte (er schlägt 2–3 vor): 🟢 fehlt uns · 🔵 übernehmen · 🟡 doppelt · 🔴 nicht übernehmen · ⭐ besser. Daraus folgt ein Umsetzungsplan. |
+| 2 | **Ideen-Modus** | für den Fall, dass du noch nichts gebaut hast: ✅ übernehmen · 🚀 besser machen · ⛔ vermeiden. Dazu kommen ein Aufbau in Stufen und ein Geldmodell. |
+| 3 | **Nachbau-Spezifikation** | alles, was man zum Nachbauen des Funktionsumfangs braucht: Routen, Rollen, jedes Formular mit allen Feldern und Werten, Kennzahlen mit (nachgerechneten) Formeln, Zustände, Datenmodell, Technik, Datenquellen und die Bau-Reihenfolge |
+
+Das Dokument wird **zuerst** angelegt und während des Erkundens **Bereich für Bereich**
+gefüllt. Dazu gehören eine Abdeckungsliste (✅ gesehen · 🔒 gesperrt → rekonstruiert ·
+⏭ ausgelassen) und eine Statuszeile (⏳ in Arbeit → ✅ fertig). So erkennst du einen halb
+fertigen Export immer sofort.
+
 ## Wofür er gedacht ist
 
 - **Ideenfindung**: Bewährte Muster und Module aus bestehenden Tools einsammeln, bevor du baust

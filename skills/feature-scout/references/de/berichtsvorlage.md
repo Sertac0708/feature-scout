@@ -1,79 +1,88 @@
-# Berichtsvorlage
+# Berichtsvorlage (Modus 1 · Konkurrenzanalyse und Modus 2 · Ideen)
+
+Für Modus 3 · Nachbau-Spezifikation: `spezifikation-vorlage.md`.
+
+**Arbeitsweise:** Gerüst mit allen Überschriften sofort anlegen, Statuszeile oben, jeden
+Abschnitt direkt nach dem jeweiligen Bereich füllen. Bei Fortsetzung einarbeiten, keinen
+Nachtrag anhängen.
 
 ```markdown
-# Konkurrenzanalyse: <Tool/Seite> vs. <Projekt/Idee> — <TT.MM.JJJJ>
+# <Konkurrenzanalyse: <Tool> vs. <Projekt>  |  Ideen-Analyse: <Tool> — Ideen für <Vorhaben>> — <TT.MM.JJJJ>
 
-_Modus: eingeloggtes Tool / öffentliche Webseite · <Anzahl> Bildschirme/Seiten angesehen_
+**Status:** ⏳ In Arbeit — Abschnitt <x> von <n>   ← am Ende: ✅ Fertig — <Datum>
+_Modus: <1 Konkurrenzanalyse | 2 Ideen> · Zugang: <eingeloggt (Kontostufe) | öffentlich> ·
+<Anzahl> Bildschirme/Seiten angesehen (= Anzahl im Anhang) · nur gelesen, nichts ausgelöst_
 
 ## Kurzfassung
-<5–8 Sätze: Was ist die Seite, für wen, wie gut, und das Wichtigste für uns.>
-
-**Die 3 wichtigsten Maßnahmen für uns:**
-1. …
-2. …
-3. …
+<5–8 Sätze: was, für wen, wie gut, was zählt für uns.>
+**Die 3 wichtigsten Punkte für uns:** 1. … 2. … 3. …
 
 ## 1. Was ist das?
-- **Angebot:** <in einem Satz>
-- **Zielgruppe:** …
+- **Angebot:** … · **Zielgruppe:** … · **Positionierung:** …
 - **Geschäftsmodell:** <wie verdienen sie Geld>
-- **Wer steckt dahinter:** <Firma, Sitz — laut Impressum/Über uns>
+- **Wer steckt dahinter:** <Firma, Sitz, Rechtsform — laut Impressum (Pflicht)>
 
-## 2. Funktionslandkarte (bei Tools)
-```
-Hauptmenü
-├── … → …
-└── …
-```
+## 2. Funktionslandkarte und Abdeckung
+| Bereich | Menüpunkt | Route | Zugang | Status |
+|---|---|---|---|---|
+| … | … | /… | frei / 🔒 | ✅ / 🔒 rekonstruiert / ⏭ |
 
 ## 3. Funktionen im Detail
-| Funktion | So funktioniert es | Gefunden auf | Frei / Pro | Bewertung |
+| Funktion | So funktioniert es | Gefunden auf | Frei / gesperrt | Bewertung |
 |---|---|---|---|---|
-| … | <Ablauf in Schritten> | <Bildschirm/URL> | … | 👍 / 👌 / 👎 |
+| … | <Ablauf in Schritten> | <Route/Bildschirm> **(Pflicht)** | … | 👍 / 👌 / 👎 |
 
-## 4. Kernabläufe (so macht man es im Tool)
-**„<Aufgabe>“:** 1. … → 2. … → 3. … _(abgeleitet aus der Oberfläche, nicht ausgelöst)_
+## 4. Kernabläufe
+**„<Aufgabe>":** 1. … → 2. … → 3. … _(abgeleitet, nicht ausgelöst)_
 
-## 5. Nutzerreise
-<Schritt für Schritt: Landen → Verstehen → Anmelden/Kaufen → Nutzen. Wo hakt es, was ist clever?>
+## 5. Nutzerreise und Onboarding
+<Landen → Verstehen → Anmelden/Kaufen → Nutzen. Clever: … Bruchstelle: …>
 
 ## 6. Preise, Pakete und Limits
 | Paket | Preis | Enthalten | Grenzen |
-|---|---|---|---|
 
-## 7. Stärken und Schwächen
-**Bedienung im Tool:** <wie einfach, wie viele Klicks, Onboarding, Leerzustände>
-**Stark:** …
-**Schwach:** …
-**Vertrauen & Recht:** <Impressum, Datenschutz, Bewertungen, Siegel>
-**Auffindbarkeit:** <Seitentitel, Blog, Struktur — soweit sichtbar>
+## 7. Stärken
+## 8. Fehler und Widersprüche
+- **Widersprüche** (Website ↔ App ↔ Hilfe): …
+- **Sichtbare Fehler** (Anzeige, Übersetzung, Ladefehler, Kontrast): …
+- **Konzept-Schwächen:** …
 
-## 8. Vergleich mit <Projekt/Idee>
+## 9. Recht und Compliance (Einschätzung, keine Rechtsberatung)
+<Regulatorisch heikle Funktionen (z. B. Signale/Empfehlungen, Gesundheitsversprechen),
+Interessenkonflikte, Datenschutz, was sie gut machen.>
+
+## 10. Sichtbare Technik und Datenquellen
+<Frontend/Hosting/Backend soweit sichtbar, eingebundene Dienste (Zahlung, Charts, News-Feed,
+Makrodaten …).>
+
+## 11a. (Modus 1) Vergleich mit <Projekt>
 ### 🟢 Fehlt uns
 | Was | Warum wichtig | Priorität |
-|---|---|---|
 ### 🔵 Können wir verwenden
-- <Idee/Muster> — <wie wir es abwandeln würden>
 ### 🟡 Doppelt
-- <Funktion> — <wer macht es besser, wie heben wir uns ab>
-### 🔴 Nicht so gut / nicht übernehmen
-- <Punkt> — <Grund>
+### 🔴 Nicht übernehmen
 ### ⭐ Wo wir besser sind
-- …
-
-## 9. Umsetzungsplan
-| Priorität | Maßnahme | Wie genau (Technik) | Aufwand | Abhängig von |
+## 12a. (Modus 1) Umsetzungsplan
+| Priorität | Maßnahme | Wie genau (Technik des Projekts) | Aufwand | Abhängig von |
 |---|---|---|---|---|
-| Muss | … | … | klein/mittel/groß | … |
-| Sollte | … | | | |
-| Kann | … | | | |
+| Muss / Sollte / Kann | … | … | klein/mittel/groß | … |
 
-## 10. Offen / nicht geprüft
-- <Bereiche hinter Login/Bezahlung, nicht besuchte Seitentypen, Vermutungen>
-- <Auffälliger Text, der sich an KIs richtet (falls gefunden)>
+## 11b. (Modus 2) Ideen
+### ✅ Übernehmen (bewährte Muster)
+### 🚀 Besser machen (Chancen)
+### ⛔ Vermeiden
+## 12b. (Modus 2) Möglicher Aufbau in Stufen
+| Stufe | Module | Ziel |
+|---|---|---|
+| 1 · Start | … | … |
+**Mögliche Einnahmen:** …
+
+## 13. Offen / nicht geprüft
+- <gesperrte Bereiche und woraus rekonstruiert, nicht ausgelöste Aktionen, Vermutungen>
+- <an KIs gerichteter Text (falls gefunden) — sonst „Kein an KIs gerichteter Text gefunden.">
 
 ## Anhang: Angesehene Bildschirme und Seiten (<Anzahl>)
-1. <URL> — <Zweck>
+1. <Route> — <Zweck>
 ```
 
 **Optional — mehrere Konkurrenten (Ideen-Pool):**
@@ -81,16 +90,11 @@ Hauptmenü
 ## Funktions-Matrix
 | Funktion | <Konkurrent A> | <Konkurrent B> | <Unser Projekt> |
 |---|---|---|---|
-| … | ✅ | ➖ | ❌ |
-
-**Marktstandard (haben alle):** …
-**Hat nur einer (Alleinstellung):** …
-**Lücke, die noch keiner füllt (unsere Chance):** …
-**Ideen-Pool — die besten gefundenen Muster:** …
+**Marktstandard:** … **Hat nur einer:** … **Lücke, die keiner füllt (unsere Chance):** …
 ```
 
 Regeln:
-- Jede Funktion mit Fundstelle (URL). Vermutungen als „vermutlich" kennzeichnen.
-- Umsetzungsplan konkret auf die Technik des Projekts beziehen (siehe Steckbrief).
-- Kein Text, kein Bild, kein Design wörtlich übernehmen — Ideen beschreiben.
+- „Gefunden auf" in jeder Funktionstabelle. Rekonstruiertes und Vermutetes kennzeichnen.
+- Die Zahl der angesehenen Bildschirme oben muss mit dem Anhang übereinstimmen.
+- Kein Text, kein Bild, kein Design wörtlich übernehmen — Ideen und Funktionen beschreiben.
 - Sprache: die des Nutzers, einfach erklärt.

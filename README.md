@@ -23,6 +23,20 @@ and you get:
 
 It answers in your language (German and English built in).
 
+## Three modes — it asks first
+
+When it starts, Feature-Scout always asks what you want:
+
+| # | Mode | You get |
+|---|---|---|
+| 1 | **Competitor analysis** | comparison with one of your projects (it suggests 2–3): 🟢 missing · 🔵 reuse · 🟡 duplicate · 🔴 don't adopt · ⭐ better → build plan |
+| 2 | **Ideas** | for when you haven't built anything yet: ✅ adopt · 🚀 do better · ⛔ avoid → build-up in stages + revenue model |
+| 3 | **Clone spec** | everything needed to rebuild the feature scope: routes, roles, every form with all fields and values, metrics with (reconstructed) formulas, states, data model, tech, data sources, build order |
+
+The document is created **first** and filled **area by area** while exploring, with a
+coverage list (✅ seen · 🔒 locked → reconstructed · ⏭ skipped) and a status line
+(⏳ in progress → ✅ complete) — so a half-finished export is always recognizable.
+
 ## What it's for
 
 - **Ideation** — collect proven patterns and modules from existing tools before you build
@@ -124,8 +138,8 @@ the report as a document plus a short summary in chat.
 skills/feature-scout/
 ├── SKILL.md                         the workflow Claude follows
 └── references/
-    ├── en/  walkthrough · report-template · projects.template
-    └── de/  rundgang · berichtsvorlage · projekte.vorlage
+    ├── en/  walkthrough · report-template · spec-template · projects.template
+    └── de/  rundgang · berichtsvorlage · spezifikation-vorlage · projekte.vorlage
 ```
 
 ## Privacy

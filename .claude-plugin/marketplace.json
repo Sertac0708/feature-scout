@@ -11,8 +11,8 @@
     {
       "name": "feature-scout",
       "source": "./",
-      "description": "Competitor analysis and idea scouting in the browser: every feature of a tool or website, compared with your own plan, turned into a build plan. German and English.",
-      "version": "1.0.1"
+      "description": "Competitor analysis, idea scouting and clone specs in the browser: every feature of a tool or website — compared with your own plan, turned into ideas, or captured as a full rebuild spec. German and English.",
+      "version": "1.1.0"
     }
   ]
 }

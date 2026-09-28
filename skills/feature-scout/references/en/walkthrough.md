@@ -28,7 +28,8 @@ Pop-ups (newsletter, chat widgets): close them, don't fill them in.
 **Additionally forbidden inside a tool** (because it is the user's real account):
 - flipping switches/toggles, ticking boxes, making selections in settings or forms
   (many tools save instantly)
-- typing into fields (not even "just to test"), uploading files, drag & drop
+- typing into forms that save or send (not even "just to test"), uploading files,
+  drag & drop
 - **credit or cost actions:** Generate, Create, Start, Run, Launch analysis, Export, Send,
   Test email, Publish
 - invitations, team changes, roles, creating or revealing API keys
@@ -38,6 +39,9 @@ Pop-ups (newsletter, chat widgets): close them, don't fill them in.
 dropdowns to read the options (then close with Esc), reading tooltips/info icons, opening
 "Create new" dialogs to see the fields and **closing them with Cancel/✕/Esc**, pure view
 filters in lists/reports (date range, sorting), reading the help center.
+**Typing is allowed** only in pure calculators (e.g. lot/price calculators — to see how the
+result is shown), search boxes and list filters that save nothing. Use sample values and
+save nothing.
 
 **Menu map first:** before clicking deeper, capture the whole navigation:
 ```
@@ -69,6 +73,27 @@ billing/plans & limits, notifications, help/onboarding.
 After the tool, add only the public pages **pricing**, **features** and **integrations**
 (what costs how much, what they advertise).
 
+## Be gentle with the server
+- Click calmly like a person; no rapid series of page loads.
+- On errors 429/503, timeouts or very slow pages: pause and continue more slowly. After
+  repeated errors in an area: stop that area, note it in the report and tell the user
+  (otherwise the account may get blocked).
+- **Reading** the browser's network requests is allowed (tech, data sources loaded);
+  sending own requests to their server or replaying APIs is forbidden.
+
+## Coverage list and writing as you go
+- First capture the complete menu map and write it into the document as a table:
+  item · route · access · status (⬜ open / ✅ seen / 🔒 locked → reconstructed /
+  ⏭ skipped with reason).
+- Work area by area; after each area write its section into the document **immediately**
+  and update the status.
+- Before stopping: if ⬜ remain, ask "N areas still open — continue?".
+- When continuing, merge new findings into the existing sections — never append a supplement.
+
+## Mandatory pages
+- **Imprint / about** always: company, seat, legal form, responsible persons.
+- Pricing, help center (for locked areas), changelog/news (if present).
+
 ## Order and page types (priority top to bottom)
 
 | Page type | Recognizable by | What to note |
@@ -84,7 +109,7 @@ After the tool, add only the public pages **pricing**, **features** and **integr
 | Sign-up / account (view only) | "Login", "Sign up", "Get started" | which data, how many steps, sign-in methods |
 | App area (if logged in) | `app.`, "Dashboard" | menu items, core features, usability |
 | Blog / guides (sample) | "Blog", "Magazine" | topics, SEO strategy (2–3 examples) |
-| Legal (skim) | imprint, terms, privacy | company/seat, notable clauses, services used |
+| Legal | imprint (**mandatory**), terms, privacy (skim) | company/seat/legal form, notable clauses, services used |
 
 Additionally, if quick: look at `/sitemap.xml` (shows the size of the site) — read only,
 don't visit every address in it.
@@ -109,5 +134,6 @@ Call to action:
 - Don't page through endless lists (filters, search, pagination) — the first page is enough.
 
 ## End of the walkthrough
-After ~30 pages/screens or once all page types are covered. Keep the list of visited pages —
+Modes 1/2: after ~30 pages (tools: up to ~50 screens) or once all page types are covered.
+Mode 3: only when the coverage list has no ⬜ left. Keep the list of visited pages —
 it goes into the report. Name the areas that were left open.

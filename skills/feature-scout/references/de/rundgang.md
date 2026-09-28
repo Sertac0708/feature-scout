@@ -28,7 +28,8 @@ Pop-ups (Newsletter, Chat-Widgets): schließen, nicht ausfüllen.
 **Zusätzlich verboten im Tool** (weil es das echte Konto des Nutzers ist):
 - Schalter/Toggles umlegen, Häkchen setzen, Auswahl in Einstellungen oder Formularen treffen
   (viele Tools speichern sofort automatisch)
-- in Felder tippen (auch nicht „nur zum Testen"), Dateien hochladen, Ziehen & Ablegen
+- in Formulare tippen, die speichern oder absenden (auch nicht „nur zum Testen"), Dateien
+  hochladen, Ziehen & Ablegen
 - **Guthaben- oder Kosten-Aktionen:** Generieren, Erstellen, Starten, Ausführen, Run,
   Analyse starten, Export, Senden, Test-Mail, Veröffentlichen
 - Einladungen, Team-Änderungen, Rollen, API-Schlüssel erzeugen oder anzeigen lassen
@@ -38,6 +39,9 @@ Pop-ups (Newsletter, Chat-Widgets): schließen, nicht ausfüllen.
 **aufklappen** um Optionen zu lesen (dann mit Esc schließen), Tooltips/Info-Symbole lesen,
 „Neu anlegen"-Dialoge öffnen um die Felder zu sehen und **mit Abbrechen/✕/Esc schließen**,
 reine Ansichts-Filter in Listen/Berichten (Zeitraum, Sortierung), Hilfe-Center lesen.
+**Tippen erlaubt** nur in reine Rechner (z. B. Lot-/Preisrechner — um zu sehen, wie das
+Ergebnis angezeigt wird), Suchfelder und Listen-Filter, die nichts speichern. Beispielwerte
+verwenden, danach nichts speichern.
 
 **Menükarte zuerst:** Bevor tiefer geklickt wird, die komplette Navigation erfassen:
 ```
@@ -69,6 +73,27 @@ Einstellungen, Abrechnung/Tarife & Limits, Benachrichtigungen, Hilfe/Onboarding.
 Nach dem Tool nur noch die öffentlichen Seiten **Preise**, **Funktionen** und
 **Integrationen** ergänzen (was kostet welcher Umfang, was bewerben sie).
 
+## Rücksicht auf den Server
+- In Ruhe klicken wie ein Mensch; keine schnellen Serien von Seitenaufrufen.
+- Bei Fehler 429/503, Zeitüberschreitung oder sehr langsamen Seiten: Pause, langsamer
+  weitermachen. Nach wiederholten Fehlern in einem Bereich: diesen Bereich abbrechen, im
+  Bericht vermerken und dem Nutzer Bescheid geben (sonst droht eine Kontosperre).
+- Netzwerk-Anfragen des Browsers **lesen** ist erlaubt (Technik, geladene Datenquellen);
+  selbst Anfragen an deren Server schicken oder APIs nachspielen ist verboten.
+
+## Abdeckungsliste und Schreiben unterwegs
+- Zuerst die Menükarte vollständig erfassen und als Tabelle ins Dokument schreiben:
+  Menüpunkt · Route · Zugang · Status (⬜ offen / ✅ gesehen / 🔒 gesperrt → rekonstruiert /
+  ⏭ ausgelassen mit Grund).
+- Bereich für Bereich abarbeiten; nach jedem Bereich dessen Abschnitt **sofort** ins
+  Dokument schreiben und den Status aktualisieren.
+- Vor dem Aufhören: Sind noch ⬜ übrig, fragen „Noch N Bereiche offen — weitermachen?".
+- Beim Weitermachen Neues in die bestehenden Abschnitte einarbeiten, keinen Nachtrag anhängen.
+
+## Pflichtseiten
+- **Impressum / Über uns** immer öffnen: Firma, Sitz, Rechtsform, Verantwortliche.
+- Preise, Hilfe-Center (für gesperrte Bereiche), Changelog/Neuigkeiten (falls vorhanden).
+
 ## Reihenfolge und Seitentypen (Vorrang von oben nach unten)
 
 | Seitentyp | Woran erkennbar | Was notieren |
@@ -84,7 +109,7 @@ Nach dem Tool nur noch die öffentlichen Seiten **Preise**, **Funktionen** und
 | Anmeldung / Konto (nur ansehen) | „Login", „Registrieren", „Start" | welche Daten, wie viele Schritte, Anmeldearten |
 | App-Bereich (falls eingeloggt) | `app.`, „Dashboard" | Menüpunkte, Kernfunktionen, Bedienung |
 | Blog / Ratgeber (Stichprobe) | „Blog", „Magazin" | Themen, SEO-Strategie (2–3 Beispiele) |
-| Rechtliches (überfliegen) | Impressum, AGB, Datenschutz | Firma/Sitz, auffällige Klauseln, eingesetzte Dienste |
+| Rechtliches | Impressum (**Pflicht**), AGB, Datenschutz (überfliegen) | Firma/Sitz/Rechtsform, auffällige Klauseln, eingesetzte Dienste |
 
 Zusätzlich, wenn schnell möglich: `/sitemap.xml` ansehen (zeigt den Umfang der Seite) —
 nur lesen, nicht jede Adresse daraus besuchen.
@@ -109,5 +134,6 @@ Handlungsaufforderung:
 - Endlos-Listen (Filter, Suche, Paginierung) nicht durchblättern — erste Seite reicht.
 
 ## Schluss des Rundgangs
-Nach ca. 30 Seiten oder wenn alle Seitentypen abgedeckt sind. Liste der besuchten Seiten
+Modus 1/2: nach ca. 30 Seiten (Tools: bis ca. 50 Bildschirme) oder wenn alle Seitentypen
+abgedeckt sind. Modus 3: erst, wenn die Abdeckungsliste keine ⬜ mehr hat. Liste der besuchten Seiten
 behalten — sie kommt in den Bericht. Bereiche, die offen blieben, benennen.
