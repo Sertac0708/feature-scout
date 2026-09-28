@@ -1,0 +1,16 @@
+{
+  "name": "feature-scout",
+  "version": "1.0.0",
+  "description": "Competitor analysis and idea scouting in the browser: explores logged-in dashboards and websites (view only, never triggers anything), maps every feature and workflow, compares them with your own idea or project — what's missing, what to reuse, what's duplicate — and turns it into a prioritized build plan. German and English. Made by NetBoosting (https://netboosting.de).",
+  "author": {
+    "name": "Sertac",
+    "url": "https://github.com/Sertac0708"
+  },
+  "homepage": "https://github.com/Sertac0708/feature-scout",
+  "repository": "https://github.com/Sertac0708/feature-scout",
+  "documentationUrl": "https://github.com/Sertac0708/feature-scout#readme",
+  "supportUrl": "https://github.com/Sertac0708/feature-scout/issues",
+  "privacyPolicyUrl": "https://github.com/Sertac0708/feature-scout/blob/main/PRIVACY.md",
+  "license": "MIT",
+  "keywords": ["competitor-analysis", "product-research", "ideation", "feature-comparison", "browser", "chrome", "saas", "teardown"]
+}

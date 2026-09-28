@@ -1,0 +1,5 @@
+# Private Projekt-Steckbriefe gehören nie ins Repo / private project profiles never go into the repo
+projekte.md
+projects.md
+*.zip
+.DS_Store
