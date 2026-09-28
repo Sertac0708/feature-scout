@@ -1,6 +1,6 @@
 # 🔭 Feature-Scout: Konkurrenzanalyse und Ideenfindung für Claude
 
-> **Erstellt von Sertac · Made by [NetBoosting](https://netboosting.de)** · Freie Nutzung unter MIT-Lizenz. · 🇬🇧 [English](README.md)
+> **Made by Sertac · [NetBoosting GmbH](https://netboosting.de)** · Freie Nutzung unter MIT-Lizenz. · 🇬🇧 [English](README.md)
 
 Du baust ein Produkt, und irgendwo gibt es schon ein Tool, das einen Teil davon kann.
 Wie funktioniert deren Dashboard? Welche Module haben die, die dir fehlen? Was kannst du
@@ -126,8 +126,8 @@ Der Skill erhebt keine Daten und hat keine Telemetrie. Details stehen in [PRIVAC
 
 ## Lizenz
 
-MIT, siehe [LICENSE](LICENSE). Erstellt von Sertac, 2026.
+MIT, siehe [LICENSE](LICENSE). Made by Sertac · NetBoosting GmbH, 2026.
 
 ---
 
-**Made by [NetBoosting](https://netboosting.de)**: Wir bauen KI-Automatisierungen und Claude-Workflows für Unternehmen.
+**Made by Sertac · [NetBoosting GmbH](https://netboosting.de)**: Wir bauen KI-Automatisierungen und Claude-Workflows für Unternehmen.

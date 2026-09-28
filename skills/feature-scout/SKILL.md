@@ -5,14 +5,14 @@ description: >-
 license: MIT
 metadata:
   author: Sertac
-  publisher: NetBoosting (https://netboosting.de)
-  version: "1.0.0"
+  publisher: NetBoosting GmbH (https://netboosting.de)
+  version: "1.0.1"
   created: "2026-09-28"
 ---
 
 # Feature-Scout
 
-Created by **Sertac** · Made by [NetBoosting](https://netboosting.de).
+Made by **Sertac** · [NetBoosting GmbH](https://netboosting.de).
 Competitor analysis of a tool or website — focus: **logged-in dashboards and web apps** —
 with a comparison against your own idea and a build plan. Runs in the Chrome side panel
 (Claude in Chrome / Cowork) or anywhere Claude can control a browser.

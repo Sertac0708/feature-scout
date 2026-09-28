@@ -2,13 +2,13 @@
 
 🇩🇪 [Deutsche Fassung weiter unten](#datenschutzerklärung--feature-scout)
 
-Feature-Scout is a skill for Claude, created by Sertac and published by
-[NetBoosting](https://netboosting.de). It consists only of instructions — it ships no
+Feature-Scout is a skill for Claude, made by Sertac ·
+[NetBoosting GmbH](https://netboosting.de). It consists only of instructions — it ships no
 program code and runs no server.
 
 ## What the skill does NOT do
 - It collects **no** personal data and has **no** telemetry, analytics or tracking.
-- It sends **nothing** to the author, to NetBoosting or to any server operated by them.
+- It sends **nothing** to the author, to NetBoosting GmbH or to any server operated by them.
 - It never submits forms, logs in, creates accounts, buys anything or changes settings on
   the sites it looks at.
 
@@ -30,13 +30,13 @@ Questions or concerns: open an issue at <https://github.com/Sertac0708/feature-s
 
 # Datenschutzerklärung – Feature-Scout
 
-Feature-Scout ist ein Skill für Claude, erstellt von Sertac und herausgegeben von
-[NetBoosting](https://netboosting.de). Er besteht nur aus Anleitungen. Er enthält keinen
+Feature-Scout ist ein Skill für Claude, gemacht von Sertac ·
+[NetBoosting GmbH](https://netboosting.de). Er besteht nur aus Anleitungen. Er enthält keinen
 Programmcode und betreibt keinen Server.
 
 ## Was der Skill NICHT tut
 - Er erhebt **keine** personenbezogenen Daten und hat **keine** Telemetrie, Analyse oder Nachverfolgung.
-- Er sendet **nichts** an den Autor, an NetBoosting oder an Server, die diese betreiben.
+- Er sendet **nichts** an den Autor, an die NetBoosting GmbH oder an Server, die diese betreiben.
 - Auf den Seiten, die er ansieht, schickt er nie Formulare ab. Er meldet sich nicht an,
   legt keine Konten an, kauft nichts und ändert keine Einstellungen.
 

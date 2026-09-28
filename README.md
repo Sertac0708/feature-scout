@@ -1,6 +1,6 @@
 # 🔭 Feature-Scout — competitor analysis and idea scouting for Claude
 
-> **Created by Sertac · Made by [NetBoosting](https://netboosting.de)** · Free to use under the MIT license. · 🇩🇪 [Deutsche Anleitung](README.de.md)
+> **Made by Sertac · [NetBoosting GmbH](https://netboosting.de)** · Free to use under the MIT license. · 🇩🇪 [Deutsche Anleitung](README.de.md)
 
 You're building a product — and somewhere out there is a tool that already does part of it.
 How does their dashboard work? Which modules do they have that you don't? What could you
@@ -134,8 +134,8 @@ The skill collects no data and has no telemetry — see [PRIVACY.md](PRIVACY.md)
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Created by Sertac, 2026.
+MIT — see [LICENSE](LICENSE). Made by Sertac · NetBoosting GmbH, 2026.
 
 ---
 
-**Made by [NetBoosting](https://netboosting.de)** — we build AI automations and Claude workflows for businesses.
+**Made by Sertac · [NetBoosting GmbH](https://netboosting.de)** — we build AI automations and Claude workflows for businesses.

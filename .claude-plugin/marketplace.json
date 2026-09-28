@@ -5,14 +5,14 @@
     "url": "https://github.com/Sertac0708"
   },
   "metadata": {
-    "description": "Feature-Scout by Sertac / NetBoosting: competitor analysis and idea scouting in the browser."
+    "description": "Feature-Scout — made by Sertac · NetBoosting GmbH: competitor analysis and idea scouting in the browser."
   },
   "plugins": [
     {
       "name": "feature-scout",
       "source": "./",
       "description": "Competitor analysis and idea scouting in the browser: every feature of a tool or website, compared with your own plan, turned into a build plan. German and English.",
-      "version": "1.0.0"
+      "version": "1.0.1"
     }
   ]
 }
