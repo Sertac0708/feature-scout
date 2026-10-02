@@ -1,11 +1,12 @@
 {
   "name": "feature-scout",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Competitor analysis, idea scouting and clone specs in the browser: explores logged-in dashboards and websites (view only, never triggers anything) in three modes — comparison with your own project plus build plan, ideas when you haven't built anything yet, or a complete rebuild specification with every field, value and formula. German and English. Made by Sertac · NetBoosting GmbH (https://netboosting.de).",
   "author": {
     "name": "Sertac",
     "url": "https://github.com/Sertac0708"
   },
+  "icon": "./icon.png",
   "homepage": "https://github.com/Sertac0708/feature-scout",
   "repository": "https://github.com/Sertac0708/feature-scout",
   "documentationUrl": "https://github.com/Sertac0708/feature-scout#readme",

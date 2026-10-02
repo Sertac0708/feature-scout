@@ -135,9 +135,21 @@ eine Kurzfassung im Chat.
   exportiert nie Daten anderer Nutzer. Ideen und Muster übernehmen ja, Texte, Bilder oder
   Designs kopieren nein.
 
+## Was das Plugin ausführt und womit es sich verbindet
+
+Das Plugin besteht nur aus Anleitungen. Es enthält keine Skripte, keine Hooks, keinen
+MCP-Server und keinen Hintergrundprozess, und es lädt nichts herunter.
+
+Bei der Nutzung öffnet und liest Claude Seiten **in deiner eigenen Browser-Sitzung**, so wie du
+selbst: Die untersuchten Seiten sehen normale Seitenaufrufe deines Browsers. Es schaut sich
+Bildschirme nur an. Es sendet nie Formulare ab, meldet sich nirgends an, legt keine Konten an,
+kauft nichts und ändert keine Einstellungen. Der Bericht entsteht in deiner Claude-Unterhaltung
+(oder in einem Dokument, das du verlangst).
+
 ## Datenschutz
 
-Der Skill erhebt keine Daten und hat keine Telemetrie. Details stehen in [PRIVACY.md](PRIVACY.md#datenschutzerklärung--feature-scout).
+Der Skill erhebt keine Daten, hat keine Telemetrie und sendet nichts an den Autor oder an
+Dritte. Details stehen in [PRIVACY.md](PRIVACY.md#datenschutzerklärung--feature-scout).
 
 ## Lizenz
 

@@ -142,9 +142,20 @@ skills/feature-scout/
     └── de/  rundgang · berichtsvorlage · spezifikation-vorlage · projekte.vorlage
 ```
 
+## What the plugin runs and connects to
+
+The plugin consists of instructions only. It ships no scripts, no hooks, no MCP server and no
+background process, and it downloads nothing.
+
+When you use it, Claude opens and reads pages **in your own browser session**, the same way
+you would: the sites you analyze see normal page visits from your browser. It only views
+screens. It never submits forms, logs in, creates accounts, buys anything or changes
+settings. The report is written into your Claude conversation (or a document you ask for).
+
 ## Privacy
 
-The skill collects no data and has no telemetry — see [PRIVACY.md](PRIVACY.md).
+The skill collects no data, has no telemetry and sends nothing to the author or to any third
+party — see [PRIVACY.md](PRIVACY.md).
 
 ## License
 
